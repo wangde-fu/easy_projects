@@ -12,6 +12,7 @@ public class YangHui {
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
         for (int i = 0; i < numRows; i++) {
             ArrayList<Integer> temp = new ArrayList<>();
+            // 注意这里先添加了1
             temp.add(1);
             for (int j = 1; j <= i; j++) {
                 if (j == i) {
