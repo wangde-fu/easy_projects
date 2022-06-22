@@ -1,6 +1,5 @@
 .idea
 **/.idea
-.xml
 out
 **/out
 *.iml
